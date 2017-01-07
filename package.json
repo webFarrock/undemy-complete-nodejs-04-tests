@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webFarrock/undemy-complete-nodejs-04-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webFarrock/undemy-complete-nodejs-04-tests/issues"
+  },
+  "homepage": "https://github.com/webFarrock/undemy-complete-nodejs-04-tests#readme",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.0.0",
+    "supertest": "^2.0.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
